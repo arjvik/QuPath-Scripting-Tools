@@ -64,5 +64,9 @@ boolean handleClient(Socket connection) throws IOException {
 
 println "Starting socket"
 def server = new ServerSocket(PORT)
-while (handleClient(server.accept())) {}
-println "Shutting down socket"
+try {
+	while (handleClient(server.accept())) {}
+} finally {
+	println "Shutting down socket"
+	server.close();
+}

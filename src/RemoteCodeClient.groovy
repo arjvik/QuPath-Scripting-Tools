@@ -14,7 +14,8 @@ try {
 	
 	if (args[0] == "--kill") {
 		request.println "KILL"
-		assert response.readLine() == "GOODBYE"		
+		assert response.readLine() == "GOODBYE"
+		println "Server exited properly"
 	} else {
 		def file = new File(args[0])
 		assert file.canRead()
