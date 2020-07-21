@@ -1,13 +1,3 @@
-import java.io.BufferedReader
-import java.io.IOException
-import java.io.InputStreamReader
-import java.io.PrintStream
-import java.io.PrintWriter
-import java.net.ServerSocket
-import java.net.Socket
-
-import javax.script.ScriptContext
-import javax.script.ScriptEngine
 import javax.script.ScriptEngineManager
 import javax.script.ScriptException
 import javax.script.SimpleScriptContext
@@ -22,8 +12,8 @@ class ServerException extends Exception {
 
 boolean handleClient(Socket connection) throws IOException {
 	println "Connection accepted"
-	def input = new BufferedReader(new InputStreamReader(connection.getInputStream()))
-	def output = new PrintStream(connection.getOutputStream())
+	def input = new BufferedReader(new InputStreamReader(connection.inputStream))
+	def output = new PrintStream(connection.outputStream)
 	try {
 		output.println "WELCOME"
 		String header = input.readLine()
@@ -52,15 +42,16 @@ boolean handleClient(Socket connection) throws IOException {
 		context.setErrorWriter(codeOutput)
 		Object result = engine.eval(code.toString(), context)
 		if (result != null)
-			codeOutput.append("\nRESULT: ${result.toString()}")
+			codeOutput.append("RESULT: ${result.toString()}")
 		def outputLines = codeOutput.toString().split("\n").length
 		output.println "SUCCESS ${outputLines} LINES"
 		output.println codeOutput.toString()
-		output.println "END"
 		println "Successfully sent response"
 	} catch (ServerException e) {
-		output.println "ERROR : ${e.message}"
-		println "Error sending response"
+		output.println "BAD-REQUEST : ${e.message}"
+		println "Invalid client request"
+	} catch (IOException e) {
+		println "Transmission error"
 	} catch (ScriptException e) {
 		output.println "EXECUTION-ERROR : ${e.message}"
 		println "Executed code caused exception"
