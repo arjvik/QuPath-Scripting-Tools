@@ -7,6 +7,6 @@
         <listEntry value="org.eclipse.ui.externaltools.launchGroup"/>
     </listAttribute>
     <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${system_path:groovy}"/>
-    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="${resource_loc:${project_path}/src/RemoteCodeClient.groovy} ${resource_loc}"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="${resource_loc:${project_path}/tools/RemoteCodeClient.groovy} ${resource_loc}"/>
     <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc}"/>
 </launchConfiguration>
