@@ -1,9 +1,14 @@
+if (args == null || args.length == 0) {
+	System.err.println "Usage: groovy RemoteCodeClient.groovy path/to/script.groovy"
+	System.exit(1)
+} else if (args[0].endsWith("RemoteCodeServer.groovy") ||
+		   args[0].endsWith("RemoteCodeClient.groovy")) {
+	System.err.println "Please do not try to run RemoteCodeServer or RemoteCodeClient using RemoteCodeClient!"
+	System.err.println "Groovyception is a very bad idea!"
+	System.exit(1)
+}
 
 final PORT = 6666
-
-// DEBUG ONLY
-args = ["src/HelloWorld.groovy"]
-// END DEBUG ONLY
 
 def client = new Socket(InetAddress.localHost, 6666)
 try {
@@ -18,10 +23,14 @@ try {
 		println "Server exited properly"
 	} else {
 		def file = new File(args[0])
-		assert file.canRead()
+		if (!file.isFile() || !file.canRead()) {
+			System.err.println "Unable to read file ${args[0]}"
+			System.err.println "Please make sure it exists and can be read"
+			System.exit(1)
+		}
+		
 		def codeLines = 0
 		file.eachLine { codeLines++ }
-		
 		request.println "RUN ${codeLines}"
 		file.eachLine { request.println it }
 		assert response.readLine() == "RECIEVED"

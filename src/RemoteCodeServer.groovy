@@ -21,7 +21,7 @@ boolean handleClient(Socket connection) throws IOException {
 			throw new ServerException("NO BODY RECIEVED")
 		if (header.equals("KILL")) {
 			output.println "GOODBYE"
-			return false;
+			return false
 		}
 		if (!header.matches("RUN \\d+"))
 			throw new ServerException("INVALID MESSAGE HEADER")
@@ -59,7 +59,7 @@ boolean handleClient(Socket connection) throws IOException {
 		output.flush()
 		connection.close()
 	}
-	return true;
+	return true
 }
 
 println "Starting socket"
@@ -68,5 +68,5 @@ try {
 	while (handleClient(server.accept())) {}
 } finally {
 	println "Shutting down socket"
-	server.close();
+	server.close()
 }
