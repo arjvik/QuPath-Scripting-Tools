@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
+    <mapAttribute key="org.eclipse.debug.core.environmentVariables">
+        <mapEntry key="JAVA_OPTS" value="--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED"/>
+    </mapAttribute>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${system_path:groovy}"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="${resource_loc:${project_path}/src/RemoteCodeClient.groovy} --kill"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc}"/>
+</launchConfiguration>
