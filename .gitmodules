@@ -1,0 +1,3 @@
+[submodule "qupath-source"]
+	path = qupath-source
+	url = https://github.com/qupath/qupath

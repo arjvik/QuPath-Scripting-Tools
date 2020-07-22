@@ -1,7 +1,7 @@
 import qupath.lib.gui.scripting.QPEx
 import qupath.lib.objects.PathObjects
-import qupath.lib.regions.ImagePlane
 import qupath.lib.objects.classes.PathClassFactory.StandardPathClasses
+import qupath.lib.regions.ImagePlane
 import qupath.lib.roi.ROIs
 
 def plane = ImagePlane.getPlane(0, 0)
