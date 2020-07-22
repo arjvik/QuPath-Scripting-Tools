@@ -88,8 +88,8 @@
 	<classpathentry kind="lib" path="libs/perf4j-0.9.16.jar"/>
 	<classpathentry kind="lib" path="libs/picocli-4.3.2.jar"/>
 	<classpathentry kind="lib" path="libs/qupath-0.2.1.jar"/>
-	<classpathentry kind="lib" path="libs/qupath-core-0.2.1.jar" sourcepath="/home/arjvik/Software/qupath/qupath-core/src/main/java"/>
-	<classpathentry kind="lib" path="libs/qupath-core-processing-0.2.1.jar" sourcepath="/home/arjvik/Software/qupath/qupath-core-processing/src/main/java"/>
+	<classpathentry kind="lib" path="libs/qupath-core-0.2.1.jar"/>
+	<classpathentry kind="lib" path="libs/qupath-core-processing-0.2.1.jar"/>
 	<classpathentry kind="lib" path="libs/qupath-experimental-0.2.1.jar"/>
 	<classpathentry kind="lib" path="libs/qupath-extension-bioformats-0.2.1.jar"/>
 	<classpathentry kind="lib" path="libs/qupath-extension-omero-0.2.1.jar"/>
