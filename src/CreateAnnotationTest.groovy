@@ -10,3 +10,4 @@ def ellipseAnno = PathObjects.createAnnotationObject(ellipse, StandardPathClasse
 def rectangle = ROIs.createRectangleROI(50, 50, 50, 50, plane)
 def rectangleAnno = PathObjects.createAnnotationObject(rectangle, StandardPathClasses.STROMA.getPathClass())
 QPEx.addObjects([ellipseAnno, rectangleAnno])
+println "Success!"
