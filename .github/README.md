@@ -5,4 +5,8 @@ One of it's core features is its scriptability via the Java Scripting Engine usi
 However, QuPath only allows running scripts edited via its own rudimentary editing interface.
 This project provides a way to develop and run scripts from Eclipse, a real Groovy IDE.
 
-Instructions and screenshots will be added soon!
+## Demo
+
+![](demo.gif)
+
+The bottom left window is the QuPath scripting window. It is used to run [RemoteCodeServer.groovy](../tools/RemoteCodeServer.groovy). The right window is Eclipse, which uses [RemoteCodeClient.groovy](../tools/RemoteCodeClient.groovy) to run the open script.
