@@ -9,13 +9,13 @@ This project provides a way to develop and run scripts from Eclipse, a real Groo
 
 ![](demo.gif)
 
-The bottom left window is the QuPath scripting window. It is used to run [RemoteCodeServer.groovy](../tools/RemoteCodeServer.groovy). The right window is Eclipse, which uses [RemoteCodeClient.groovy](../tools/RemoteCodeClient.groovy) to run the open script.
+The bottom left window is the QuPath scripting window. It is used to run [`RemoteCodeServer.groovy`](../tools/RemoteCodeServer.groovy). The right window is Eclipse, which uses [`RemoteCodeClient.groovy`](../tools/RemoteCodeClient.groovy) to run the open script.
 
 ### Autocomplete and Javadoc integration
 
 ![](autocomplete.png)
 
-### Raw TCP Protocol (will change over time)
+### Raw TCP Protocol (will almost certainly change over time)
 
 ![](protocol.png)
 
