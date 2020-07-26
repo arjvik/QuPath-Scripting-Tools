@@ -3,7 +3,18 @@
 [QuPath](https://github.com/qupath/qupath) is an open-source (GPLv3) bioimage analysis and annotation toolkit written in Java.
 One of it's core features is its scriptability via the Java Scripting Engine using Groovy.
 However, QuPath only allows running scripts edited via its own rudimentary editing interface.
-This project provides a way to develop and run scripts from Eclipse, a real Groovy IDE.
+This project provides a way to develop and run scripts from Eclipse, or any other Groovy-capable IDEs.
+It is also a fully-complete Eclipse project that can be used as a starting point to write new QuPath scripts, providing out-of-the-box autocomplete and javadocs for QuPath's script APIs.
+
+### Table of Contents
+
+* [Demo](#demo)
+   * [Autocomplete and Javadoc integration](#autocomplete-and-javadoc-integration)
+   * [Raw TCP Protocol](#raw-tcp-protocol-will-almost-certainly-change-over-time)
+* [Instructions](#instructions)
+   * [Use within Eclipse](#use-within-eclipse)
+   * [External use](#external-use)
+   * [Remote use](#remote-use)
 
 ## Demo
 
