@@ -39,7 +39,7 @@ The bottom left window is the QuPath scripting window. It is used to run [`Remot
 1. Clone the repository (including submodules) to a local directory on your machine:
 
    ```shell
-   git clone https://github.com/arjvik/QuPath-Scripts --recursive
+   git clone https://github.com/arjvik/QuPath-Scripting-Tools --recursive QuPath-Scripts
    ```
 
 2. Import the repository into Eclipse:
@@ -48,6 +48,7 @@ The bottom left window is the QuPath scripting window. It is used to run [`Remot
    - Under `General`, select `Existing Projects into Workspace`.
    - Click `Browse`, and select the project that you just cloned (the root `QuPath-Scripts` folder, or whatever you named it when you cloned it).
    - Select `Finish`, then open the project.
+   - If you wish, you can rename the project to `QuPath-Scripts`, because it will contain all your newly created scripts.
 
 3. Launch `RemoteCodeServer.groovy` from within QuPath. You can either browse to the `QuPath-Scripts/tools` directory from within QuPath or copy-paste the script into the QuPath script editor. Watch the console for a line that says `INFO: Starting socket`
 
