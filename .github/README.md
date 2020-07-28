@@ -1,5 +1,7 @@
 # QuPath Scripting Tools
 
+### NOTE: This branch has become obsolete now that QuPath 0.2.2 has been released. Please use the `v0.2.2-tools` branch instead.
+
 [QuPath](https://github.com/qupath/qupath) is an open-source (GPLv3) bioimage analysis and annotation toolkit written in Java.
 One of it's core features is its scriptability via the Java Scripting Engine using Groovy.
 However, QuPath only allows running scripts edited via its own rudimentary editing interface.
