@@ -10,7 +10,7 @@ if (args == null || args.length == 0) {
 
 final PORT = 6666
 
-def client = new Socket(InetAddress.localHost, 6666)
+def client = new Socket(InetAddress.localHost, PORT)
 try {
 	def request = new PrintStream(client.outputStream)
 	def response = new BufferedReader(new InputStreamReader(client.inputStream))
