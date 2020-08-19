@@ -21,9 +21,9 @@
 	<classpathentry kind="lib" path="libs/error_prone_annotations-2.3.4.jar"/>
 	<classpathentry kind="lib" path="libs/failureaccess-1.0.1.jar"/>
 	<classpathentry kind="lib" path="libs/flowless-0.6.1.jar"/>
-	<classpathentry kind="lib" path="libs/formats-api-6.5.0.jar"/>
-	<classpathentry kind="lib" path="libs/formats-bsd-6.5.0.jar"/>
-	<classpathentry kind="lib" path="libs/formats-gpl-6.5.0.jar"/>
+	<classpathentry kind="lib" path="libs/formats-api-6.5.1.jar"/>
+	<classpathentry kind="lib" path="libs/formats-bsd-6.5.1.jar"/>
+	<classpathentry kind="lib" path="libs/formats-gpl-6.5.1.jar"/>
 	<classpathentry kind="lib" path="libs/groovy-3.0.3.jar"/>
 	<classpathentry kind="lib" path="libs/groovy-jsr223-3.0.3.jar"/>
 	<classpathentry kind="lib" path="libs/groovy-xml-3.0.3.jar"/>
@@ -39,18 +39,18 @@
 	<classpathentry kind="lib" path="libs/jackson-databind-2.9.8.jar"/>
 	<classpathentry kind="lib" path="libs/javacpp-1.5.3.jar"/>
 	<classpathentry kind="lib" path="libs/javacpp-1.5.3-linux-x86_64.jar"/>
-	<classpathentry kind="lib" path="libs/javafx-base-14.0.1.jar"/>
-	<classpathentry kind="lib" path="libs/javafx-base-14.0.1-linux.jar"/>
-	<classpathentry kind="lib" path="libs/javafx-controls-14.0.1.jar"/>
-	<classpathentry kind="lib" path="libs/javafx-controls-14.0.1-linux.jar"/>
-	<classpathentry kind="lib" path="libs/javafx-graphics-14.0.1.jar"/>
-	<classpathentry kind="lib" path="libs/javafx-graphics-14.0.1-linux.jar"/>
-	<classpathentry kind="lib" path="libs/javafx-media-14.0.1.jar"/>
-	<classpathentry kind="lib" path="libs/javafx-media-14.0.1-linux.jar"/>
-	<classpathentry kind="lib" path="libs/javafx-swing-14.0.1.jar"/>
-	<classpathentry kind="lib" path="libs/javafx-swing-14.0.1-linux.jar"/>
-	<classpathentry kind="lib" path="libs/javafx-web-14.0.1.jar"/>
-	<classpathentry kind="lib" path="libs/javafx-web-14.0.1-linux.jar"/>
+	<classpathentry kind="lib" path="libs/javafx-base-14.0.2.1.jar"/>
+	<classpathentry kind="lib" path="libs/javafx-base-14.0.2.1-linux.jar"/>
+	<classpathentry kind="lib" path="libs/javafx-controls-14.0.2.1.jar"/>
+	<classpathentry kind="lib" path="libs/javafx-controls-14.0.2.1-linux.jar"/>
+	<classpathentry kind="lib" path="libs/javafx-graphics-14.0.2.1.jar"/>
+	<classpathentry kind="lib" path="libs/javafx-graphics-14.0.2.1-linux.jar"/>
+	<classpathentry kind="lib" path="libs/javafx-media-14.0.2.1.jar"/>
+	<classpathentry kind="lib" path="libs/javafx-media-14.0.2.1-linux.jar"/>
+	<classpathentry kind="lib" path="libs/javafx-swing-14.0.2.1.jar"/>
+	<classpathentry kind="lib" path="libs/javafx-swing-14.0.2.1-linux.jar"/>
+	<classpathentry kind="lib" path="libs/javafx-web-14.0.2.1.jar"/>
+	<classpathentry kind="lib" path="libs/javafx-web-14.0.2.1-linux.jar"/>
 	<classpathentry kind="lib" path="libs/jfxtras-common-10.0-r1.jar"/>
 	<classpathentry kind="lib" path="libs/jfxtras-menu-10.0-r1.jar"/>
 	<classpathentry kind="lib" path="libs/jgoodies-common-1.7.0.jar"/>
@@ -62,7 +62,7 @@
 	<classpathentry kind="lib" path="libs/json-20090211.jar"/>
 	<classpathentry kind="lib" path="libs/jts-core-1.16.1.jar"/>
 	<classpathentry kind="lib" path="libs/JWlz-1.4.0.jar"/>
-	<classpathentry kind="lib" path="libs/jxrlib-all-0.2.2.jar"/>
+	<classpathentry kind="lib" path="libs/jxrlib-all-0.2.4.jar"/>
 	<classpathentry kind="lib" path="libs/kryo-2.24.0.jar"/>
 	<classpathentry kind="lib" path="libs/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
 	<classpathentry kind="lib" path="libs/logback-classic-1.2.3.jar"/>
@@ -88,23 +88,23 @@
 	<classpathentry kind="lib" path="libs/org.jfree.svg-4.1.jar"/>
 	<classpathentry kind="lib" path="libs/perf4j-0.9.16.jar"/>
 	<classpathentry kind="lib" path="libs/picocli-4.3.2.jar"/>
-	<classpathentry kind="lib" path="libs/qupath-0.2.1.jar"/>
-	<classpathentry kind="lib" path="libs/qupath-core-0.2.1.jar" sourcepath="qupath-source/qupath-core/src/main/java"/>
-	<classpathentry kind="lib" path="libs/qupath-core-processing-0.2.1.jar" sourcepath="qupath-source/qupath-core-processing/src/main/java"/>
-	<classpathentry kind="lib" path="libs/qupath-experimental-0.2.1.jar" sourcepath="qupath-source/qupath-experimental/src/main/java"/>
-	<classpathentry kind="lib" path="libs/qupath-extension-bioformats-0.2.1.jar" sourcepath="qupath-source/qupath-extension-bioformats/src/main/java"/>
-	<classpathentry kind="lib" path="libs/qupath-extension-omero-0.2.1.jar" sourcepath="qupath-source/qupath-extension-omero/src/main/java"/>
-	<classpathentry kind="lib" path="libs/qupath-extension-openslide-0.2.1.jar" sourcepath="qupath-source/qupath-extension-openslide/src/main/java"/>
-	<classpathentry kind="lib" path="libs/qupath-extension-pen-0.2.1.jar" sourcepath="qupath-source/qupath-extension-pen/src/main/java"/>
-	<classpathentry kind="lib" path="libs/qupath-extension-processing-0.2.1.jar" sourcepath="qupath-source/qupath-extension-processing/src/main/java"/>
-	<classpathentry kind="lib" path="libs/qupath-extension-script-editor-0.2.1.jar" sourcepath="qupath-source/qupath-extension-script-editor/src/main/java"/>
-	<classpathentry kind="lib" path="libs/qupath-extension-svg-0.2.1.jar" sourcepath="qupath-source/qupath-extension-svg/src/main/java"/>
-	<classpathentry kind="lib" path="libs/qupath-gui-fx-0.2.1.jar" sourcepath="qupath-source/qupath-gui-fx/src/main/java"/>
+	<classpathentry kind="lib" path="libs/qupath-0.2.2.jar"/>
+	<classpathentry kind="lib" path="libs/qupath-core-0.2.2.jar" sourcepath="qupath-source/qupath-core/src/main/java"/>
+	<classpathentry kind="lib" path="libs/qupath-core-processing-0.2.2.jar" sourcepath="qupath-source/qupath-core-processing/src/main/java"/>
+	<classpathentry kind="lib" path="libs/qupath-experimental-0.2.2.jar" sourcepath="qupath-source/qupath-experimental/src/main/java"/>
+	<classpathentry kind="lib" path="libs/qupath-extension-bioformats-0.2.2.jar" sourcepath="qupath-source/qupath-extension-bioformats/src/main/java"/>
+	<classpathentry kind="lib" path="libs/qupath-extension-omero-0.2.2.jar" sourcepath="qupath-source/qupath-extension-omero/src/main/java"/>
+	<classpathentry kind="lib" path="libs/qupath-extension-openslide-0.2.2.jar" sourcepath="qupath-source/qupath-extension-openslide/src/main/java"/>
+	<classpathentry kind="lib" path="libs/qupath-extension-pen-0.2.2.jar" sourcepath="qupath-source/qupath-extension-pen/src/main/java"/>
+	<classpathentry kind="lib" path="libs/qupath-extension-processing-0.2.2.jar" sourcepath="qupath-source/qupath-extension-processing/src/main/java"/>
+	<classpathentry kind="lib" path="libs/qupath-extension-script-editor-0.2.2.jar" sourcepath="qupath-source/qupath-extension-script-editor/src/main/java"/>
+	<classpathentry kind="lib" path="libs/qupath-extension-svg-0.2.2.jar" sourcepath="qupath-source/qupath-extension-svg/src/main/java"/>
+	<classpathentry kind="lib" path="libs/qupath-gui-fx-0.2.2.jar" sourcepath="qupath-source/qupath-gui-fx/src/main/java"/>
 	<classpathentry kind="lib" path="libs/reactfx-2.0-M5.jar"/>
 	<classpathentry kind="lib" path="libs/richtextfx-0.10.5.jar"/>
 	<classpathentry kind="lib" path="libs/slf4j-api-1.7.25.jar"/>
 	<classpathentry kind="lib" path="libs/specification-6.1.0.jar"/>
-	<classpathentry kind="lib" path="libs/turbojpeg-6.5.0.jar"/>
+	<classpathentry kind="lib" path="libs/turbojpeg-6.5.1.jar"/>
 	<classpathentry kind="lib" path="libs/undofx-2.1.0.jar"/>
 	<classpathentry kind="lib" path="libs/wellbehavedfx-0.3.3.jar"/>
 	<classpathentry kind="lib" path="libs/xercesImpl-2.8.1.jar"/>
